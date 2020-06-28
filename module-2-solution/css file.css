@@ -1,0 +1,75 @@
+
+h1{
+	text-align: center;
+	color: red;
+	font-size: 180%;
+}
+.box1,.box2,.box3{
+	box-sizing: border-box;
+	background-color: grey;
+	float: left;
+	border: 1px black solid;
+	text-align: justify;
+}
+h2{
+	text-align: right;
+	color: blue;
+	border: 1px black solid;
+	background-color: pink;
+	right: 0px;
+	top:0px;
+	margin: 0px;
+	clear: both;
+}
+h3{
+	text-align: right;
+	color: green;
+	border: 1px black solid;
+	background-color: pink;
+	right: 0px;
+	top:0px;
+	margin: 0px;
+}
+h4{
+	text-align: right;
+	color: purple;
+	border-spacing: : 10px;
+	border: 1px black solid;
+	background-color: pink;
+	box-sizing: border-box;
+	right: 0px;
+	top:0px;
+	margin: 0px;
+}
+p{
+	color: black;
+	font-size: 90%;
+}
+@media (min-width: 992px){
+	.box1,.box2,.box3{
+		width: 30%;
+		margin: 1%;
+		padding: 1%;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.box1,.box2{
+		width: 48%;
+		margin: 1%;
+		padding: : 1%
+	}
+	.box3{
+		width: 98%;
+		margin: 1%;
+		padding: 1%;
+
+	}
+}
+@media (max-width: 787px){
+	.box1,.box2,.box3{
+		width: 98%%;
+		margin: 1%;
+		padding: 1%;
+	}
+}
