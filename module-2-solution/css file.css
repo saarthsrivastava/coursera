@@ -16,10 +16,11 @@ h2{
 	color: blue;
 	border: 1px black solid;
 	background-color: pink;
-	right: 0px;
+	position: relative;
+	left: 0px;
 	top:0px;
 	margin: 0px;
-	clear: both;
+	
 }
 h3{
 	text-align: right;
